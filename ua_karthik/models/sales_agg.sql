@@ -10,3 +10,4 @@ WITH source AS
     GROUP BY customer
 )
 select * from source
+--test
