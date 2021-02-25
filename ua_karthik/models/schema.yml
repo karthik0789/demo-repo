@@ -1,0 +1,13 @@
+version: 2
+ 
+sources:
+  - name: RAW
+    database: karthik_db     
+    schema: DEV_RAW
+    quoting:
+      identifier: true
+    tables:
+      - name: SALES_ITEM
+      - name: STYLE_MASTER
+      - name: STYLE_COLOR
+      - name: CUST_TRANSACTION
